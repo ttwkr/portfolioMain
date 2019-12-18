@@ -1,0 +1,36 @@
+.main__menu{
+    position: relative;;
+    font-size: 100px;
+    font-weight: 1000;
+    opacity: 0.5;
+
+    span{
+        display: block;      
+    }
+    Link{
+        text-decoration: none;
+        color:black
+    }
+}
+
+.main__menu:hover{
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.main__menu:not(:hover){
+    
+    opacity: 0.5;
+    transition: 1s;
+}
+
+span:hover{
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+span:not(:hover){
+    padding-bottom: 0;
+    transition: 0.3s;
+}
+

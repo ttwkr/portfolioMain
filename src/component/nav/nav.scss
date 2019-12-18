@@ -1,0 +1,12 @@
+.nav{
+    padding: 50px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__image img{
+    width: 20px;
+}
